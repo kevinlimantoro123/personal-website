@@ -11,10 +11,9 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Kevin Limantoro </span>
             from <span className="purple"> Surabaya, Indonesia.</span>
             <br />
-            I am currently employed as a software developer at Juspay.
+            I am currently studying in National University of Singapore (NUS)
             <br />
-            I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra.
+            pursuing my Bachelor's degreee in Computer Science.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
@@ -24,17 +23,15 @@ function AboutCard() {
               <ImPointRight /> Playing Games
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <ImPointRight /> Exercising
             </li>
             <li className="about-activity">
               <ImPointRight /> Travelling
             </li>
           </ul>
 
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
-          </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <p style={{ color: "rgb(155 126 172)" }}>"Put quote here!" </p>
+          <footer className="blockquote-footer">Kevin</footer>
         </blockquote>
       </Card.Body>
     </Card>
