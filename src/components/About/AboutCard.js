@@ -8,30 +8,13 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Kevin Limantoro </span>
-            from <span className="purple"> Surabaya, Indonesia.</span>
-            <br />
-            I am currently studying in National University of Singapore (NUS)
-            <br />
-            pursuing my Bachelor's degreee in Computer Science.
-            <br />
-            <br />
-            Apart from coding, some other activities that I love to do!
+            Hi, my name is
+            <span className="purple"> Kevin Limantoro. </span>I am currently
+            studying in National University of Singapore (NUS) pursuing my
+            Bachelor's degreee in Computer Science. I really enjoy challenging
+            myself and building new software products. Check out my projects by
+            clicking on the button below!
           </p>
-          <ul>
-            <li className="about-activity">
-              <ImPointRight /> Playing Games
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Exercising
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Travelling
-            </li>
-          </ul>
-
-          <p style={{ color: "rgb(155 126 172)" }}>"Put quote here!" </p>
-          <footer className="blockquote-footer">Kevin</footer>
         </blockquote>
       </Card.Body>
     </Card>
