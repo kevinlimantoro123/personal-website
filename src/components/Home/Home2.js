@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/profile.jpg";
 import Tilt from "react-parallax-tilt";
 import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -15,8 +15,11 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I'm a current second year CS undergraduate at National University
-              of Singapore (NUS)
+              I've been studying in Singapore as an international scholar from
+              Indonesia. It’s been an incredibly rewarding experience—studying
+              abroad has not only broadened my perspective but also helped me
+              grow both academically and personally. I'm always open to
+              connecting with new people and learning more things.
               <br />
             </p>
           </Col>
