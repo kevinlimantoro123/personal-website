@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import optiplan from "../../Assets/Projects/optiplan.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import smartmart from "../../Assets/Projects/mwh-smartmart.png";
 
 function Projects() {
   return (
@@ -30,7 +30,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={smartmart}
               isBlog={false}
               title="MWH SmartMart"
               description="A full stack e-commerce web application utilising a voucher reward system. Offers intuitive tools for reporting and analysis of impactful data. User authentication is done through Firebase This project was built using React.js, Express.js, and Tailwind CSS and MongoDB for data management"
