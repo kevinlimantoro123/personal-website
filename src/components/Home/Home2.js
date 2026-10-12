@@ -1,5 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import myImg from "../../Assets/profile.jpg";
+import Tilt from "react-parallax-tilt";
 import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -21,16 +23,20 @@ function Home2() {
               <br />
             </p>
           </Col>
-          {/*
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img
+                src={myImg}
+                className="img-fluid"
+                alt="avatar"
+                width={1920}
+                height={2560}
+              />
             </Tilt>
           </Col>
-          */}
         </Row>
         <Row>
-          <Col md={12} className="home-about-social">
+          <Col md={12} className="home-about-social" id="contact">
             <h1>FIND ME ON</h1>
             <p>
               Feel free to <span className="purple">connect </span>with me

@@ -347,6 +347,10 @@ button:focus {
   text-align: left;
 }
 
+#contact {
+  scroll-margin-top: 80px;
+}
+
 .home-about-social {
   text-align: center !important;
   padding-top: 25px;

@@ -102,7 +102,7 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/home"
+                to="/#contact"
                 onClick={() => updateExpanded(false)}
               >
                 <AiFillStar style={{ marginBottom: "2px" }} /> Contact me
