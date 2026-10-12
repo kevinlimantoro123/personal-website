@@ -180,6 +180,17 @@ button:focus {
   margin-left: 20px;
 }
 
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar-nav .nav-item {
+    margin-left: 0;
+  }
+
+  .navbar-nav .nav-link {
+    padding-right: 0.6rem !important;
+    padding-left: 0.6rem !important;
+  }
+}
+
 .navbar-nav .nav-item a {
   font-weight: 400;
   transition: all 0.3s ease-out 0s;
@@ -537,6 +548,100 @@ button:focus {
   font-size: 2.3em !important;
   font-weight: 500 !important;
   padding-top: 10px !important;
+}
+
+/* --------- */
+/* Experience */
+/* --------- */
+
+.experience-timeline {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 0 50px 25px;
+  text-align: left;
+}
+
+.experience-item {
+  position: relative;
+  padding: 0 0 45px 35px;
+  border-left: 2px solid #8a49a8;
+}
+
+.experience-item:last-child {
+  padding-bottom: 0;
+}
+
+.experience-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  left: -9px;
+  top: 24px;
+  background: #fff;
+  border: 2px solid #8a49a8;
+}
+
+.experience-header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding-bottom: 15px;
+}
+
+.experience-role {
+  font-size: 1.3em !important;
+  font-weight: 600 !important;
+  margin-bottom: 4px !important;
+}
+
+.experience-company {
+  font-size: 1.1em;
+}
+
+.experience-meta {
+  text-align: right;
+  font-size: 0.95em;
+  opacity: 0.8;
+}
+
+.experience-points {
+  padding-left: 20px;
+  text-align: justify;
+}
+
+.experience-points li {
+  padding-bottom: 10px;
+}
+
+.experience-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.experience-tag {
+  font-size: 0.85em;
+  padding: 4px 12px;
+  border-radius: 20px;
+  border: 1px solid rgba(200, 137, 230, 0.637);
+  background: #5234795d;
+}
+
+@media (max-width: 767px) {
+  .experience-timeline {
+    padding-left: 10px;
+  }
+
+  .experience-item {
+    padding-left: 20px;
+  }
+
+  .experience-meta {
+    text-align: left;
+  }
 }
 
 /* --------- */

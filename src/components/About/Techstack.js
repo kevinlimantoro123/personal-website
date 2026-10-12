@@ -6,7 +6,6 @@ import {
   DiNodejs,
   DiMongodb,
   DiPython,
-  DiGit,
   DiJava,
 } from "react-icons/di";
 import {
@@ -14,44 +13,43 @@ import {
   SiNextdotjs,
   SiPostgresql,
   SiExpress,
+  SiTypescript,
+  SiHtml5,
+  SiCss3,
+  SiFastapi,
+  SiFlask,
+  SiNumpy,
+  SiApachekafka,
 } from "react-icons/si";
+
+const techs = [
+  { name: "Python", icon: <DiPython /> },
+  { name: "Java", icon: <DiJava /> },
+  { name: "JavaScript", icon: <DiJavascript1 /> },
+  { name: "TypeScript", icon: <SiTypescript /> },
+  { name: "HTML", icon: <SiHtml5 /> },
+  { name: "CSS", icon: <SiCss3 /> },
+  { name: "React / React Native", icon: <DiReact /> },
+  { name: "Next.js", icon: <SiNextdotjs /> },
+  { name: "Node.js", icon: <DiNodejs /> },
+  { name: "Express.js", icon: <SiExpress /> },
+  { name: "FastAPI", icon: <SiFastapi /> },
+  { name: "Flask", icon: <SiFlask /> },
+  { name: "NumPy", icon: <SiNumpy /> },
+  { name: "PostgreSQL", icon: <SiPostgresql /> },
+  { name: "MongoDB", icon: <DiMongodb /> },
+  { name: "Firebase", icon: <SiFirebase /> },
+  { name: "Apache Kafka", icon: <SiApachekafka /> },
+];
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiExpress />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
-      </Col>
+      {techs.map((tech) => (
+        <Col xs={4} md={2} className="tech-icons" key={tech.name} title={tech.name}>
+          {tech.icon}
+        </Col>
+      ))}
     </Row>
   );
 }
